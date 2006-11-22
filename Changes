@@ -1,5 +1,11 @@
 Revision history for Perl extension Net::Packet::Shell.
 
+0.20 Wed Nov 22 19:07:04 CET 2006
+   - NEW: this is no more a PoC, this is a usable release
+   - pod: full documentation
+   - tests: added tests
+   - examples: added examples
+
 0.10 Sun Nov 12 23:17:37 CET 2006
    - first public release
 
