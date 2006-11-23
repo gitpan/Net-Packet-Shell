@@ -1,5 +1,8 @@
 Revision history for Perl extension Net::Packet::Shell.
 
+0.21 Thu Nov 23 23:40:21 CET 2006
+   - bugfix: no use strict for main nps() loop
+
 0.20 Wed Nov 22 19:07:04 CET 2006
    - NEW: this is no more a PoC, this is a usable release
    - pod: full documentation

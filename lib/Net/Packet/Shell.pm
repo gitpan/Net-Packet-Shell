@@ -1,11 +1,11 @@
 #
-# $Id: Shell.pm,v 1.3 2006/11/22 18:06:46 gomor Exp $
+# $Id: Shell.pm,v 1.4 2006/11/23 22:40:16 gomor Exp $
 #
 package Net::Packet::Shell;
 use strict;
 use warnings;
 
-our $VERSION = '0.20';
+our $VERSION = '0.21';
 
 my @subList = qw(
    F sr sd sd2 sd3 sniff dsniff read
@@ -205,11 +205,15 @@ sub nps {
       ( @subList, @layerList )
    };
 
-   while (my $line = $term->readline($prompt)) {
-      $line =~ s/s*read/Net::Packet::Shell::read/;
-      eval($line);
-      warn($@) if $@;
-      print "\n";
+   {
+      no strict;
+
+      while (my $line = $term->readline($prompt)) {
+         $line =~ s/s*read/Net::Packet::Shell::read/;
+         eval($line);
+         warn($@) if $@;
+         print "\n";
+      }
    }
 
    print "\n";
