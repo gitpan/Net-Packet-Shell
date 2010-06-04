@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Packet::Shell.
 
+0.22 Fri Jun  4 13:43:10 CEST 2010
+   - bugfix: Net::Write and Term::ReadLine are PREREQ
+   - update: copyright notice and email address
+
 0.21 Thu Nov 23 23:40:21 CET 2006
    - bugfix: no use strict for main nps() loop
 

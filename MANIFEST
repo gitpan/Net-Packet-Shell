@@ -7,8 +7,8 @@ LICENSE
 LICENSE.Artistic
 Makefile.PL
 MANIFEST
-META.yml
 README
 t/01-pod-coverage.t
 t/01-test-pod.t
 t/01-use.t
+META.yml                                 Module meta-data (added by MakeMaker)

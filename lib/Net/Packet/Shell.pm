@@ -1,11 +1,11 @@
 #
-# $Id: Shell.pm,v 1.4 2006/11/23 22:40:16 gomor Exp $
+# $Id: Shell.pm 8 2010-06-04 11:43:42Z gomor $
 #
 package Net::Packet::Shell;
 use strict;
 use warnings;
 
-our $VERSION = '0.21';
+our $VERSION = '0.22';
 
 my @subList = qw(
    F sr sd sd2 sd3 sniff dsniff read
@@ -399,7 +399,7 @@ Patrice E<lt>GomoRE<gt> Auffret
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (c) 2006, Patrice E<lt>GomoRE<gt> Auffret
+Copyright (c) 2006-2010, Patrice E<lt>GomoRE<gt> Auffret
 
 You may distribute this module under the terms of the Artistic license.
 See LICENSE.Artistic file in the source distribution archive.

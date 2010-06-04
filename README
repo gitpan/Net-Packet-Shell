@@ -16,11 +16,13 @@ This module requires these other modules and libraries:
 
   Perl v5.6.1
   Net::Packet
+  Net::Write
+  Term::ReadLine
 
 COPYRIGHT AND LICENSE
 
 You may distribute this module under the terms of the Artistic license.
 See LICENSE.Artistic file in the source distribution archive.
 
-Copyright (c) 2006, Patrice <GomoR> Auffret
+Copyright (c) 2006-2010, Patrice <GomoR> Auffret
 
